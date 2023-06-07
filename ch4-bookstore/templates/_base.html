@@ -1,0 +1,31 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+
+  <style>
+h1 {text-align: center;}
+p {text-align: center;}
+div {text-align: center;}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+</style>
+
+
+  <meta charset="utf-8">
+  <title>{% block title %}Bookstore{% endblock title %}</title>
+    <img src="{% static 'photo_.jpeg'%}" class="center">
+</head>
+<body>
+  <div class="container">
+    {% block content %}
+    {% endblock content %}
+  </div>
+</body>
+</html>
