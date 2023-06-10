@@ -2,3 +2,5 @@
 *.pyc
 *.pyc
 *.pyc
+ch4-bookstore/docker-compose.yml
+*.yml
